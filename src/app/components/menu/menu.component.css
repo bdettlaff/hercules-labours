@@ -1,0 +1,30 @@
+/* Naprawa wyrównania strzałki */
+.navbar-nav .nav-item .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  content: "▼"; /* Dodaj strzałkę w dół */
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+/* Wyświetlanie rozwijanego menu przy najechaniu (opcjonalnie) */
+.navbar-nav .nav-item.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Styl dropdown menu */
+.dropdown-menu {
+  background-color: #343a40; /* Dopasuj kolor do navbar */
+  border: 1px solid #495057; /* Dodaj delikatne obramowanie */
+  border-radius: 0.25rem;
+}
+
+.dropdown-item {
+  color: #fff; /* Kolor tekstu */
+}
+
+.dropdown-item:hover {
+  background-color: #495057; /* Kolor tła na hover */
+  color: #fff; /* Kolor tekstu na hover */
+}

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bartek-dettlaff-project';
+  title = 'Zbiory zadań z różnych języków programowania.';
 }

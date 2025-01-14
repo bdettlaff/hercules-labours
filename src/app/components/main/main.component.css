@@ -1,0 +1,44 @@
+.card {
+    border-radius: 15px; /* Zaokrąglone rogi */
+    overflow: hidden; /* Obrazki wpasowane w ramki */
+  }
+  
+  .card img {
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+  }
+  
+  .card h5 {
+    color: #343a40; /* Ciemny kolor nagłówków */
+  }
+  
+  .card .btn {
+    background-color: #007bff; /* Dopasowany kolor przycisku */
+    border: none;
+  }
+  
+  .card .btn:hover {
+    background-color: #0056b3; /* Kolor na hover */
+  }
+
+  .card-title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+.written {
+    font-family: 'Dancing Script', cursive;  /* Używamy czcionki stylu pisanego */
+    font-size: 3rem;
+    color: #2c3e50;
+  }
+  
+  /* Styl dla napisu "przez ciernie do gwiazd" (zwykła czcionka) */
+  .regular {
+    font-family: 'Arial', sans-serif; /* Zwykła czcionka */
+    font-size: 1.5rem;
+    color: #7f8c8d;
+    text-align: right; /* Wyrównanie tekstu do prawej */
+    margin-top: 10px; /* Dodatkowa przestrzeń między tekstem */
+    padding-left: 10px; /* Myślnik będzie widoczny z lewej */
+  }

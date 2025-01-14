@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Zadanka</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a 
+            class="nav-link dropdown-toggle" 
+            href="#" 
+            id="programmingDropdown" 
+            role="button" 
+            data-bs-toggle="dropdown" 
+            aria-expanded="false">
+            Języki Programowania
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="programmingDropdown">
+            <!-- <li><a class="dropdown-item" routerLink="/tasks/PHP" routerLinkActive="active">PHP</a></li> -->
+            <li><a class="dropdown-item" routerLink="/tasks/JavaScript" routerLinkActive="active">JavaScript</a></li>
+            <!-- <li><a class="dropdown-item" routerLink="/tasks/Python" routerLinkActive="active">Python</a></li> -->
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/knowledge-base" routerLinkActive="active">Baza Wiedzy</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="officeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pakiet Office
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="officeDropdown">
+            <li><a class="dropdown-item" routerLink="/office/Word" routerLinkActive="active">Word</a></li>
+            <li><a class="dropdown-item" routerLink="/office/Excel" routerLinkActive="active">Excel</a></li>
+            <li><a class="dropdown-item" routerLink="/office/PowerPoint" routerLinkActive="active">PowerPoint</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
