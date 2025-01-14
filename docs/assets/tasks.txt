@@ -1,0 +1,25 @@
+PHP 
+Podstawowe zadania
+1. Połączenie z bazą danych
+Opis: Zadanie polega na stworzeniu połączenia z bazą danych MySQL w PHP.
+Wejście: Host: localhost, Baza: test, Użytkownik: root
+Wyjście: Połączenie pomyślnie nawiązane
+
+2. Obsługa formularza kontaktowego
+Opis: Zadanie polega na obsłudze formularza kontaktowego w PHP.
+Wejście: Imię: Jan, Email: jan@example.com
+Wyjście: Formularz został wysłany pomyślnie
+
+JS 
+Podstawowe zadania
+1. Funkcja walidacji
+Opis: Zadanie polega na stworzeniu funkcji walidacji formularza w JavaScript.
+Wejście: Email: example@mail.com
+Wyjście: Email jest prawidłowy
+
+Python 
+Podstawowe zadania
+1. Skrypt ETL
+Opis: Zadanie polega na stworzeniu skryptu ETL w Pythonie.
+Wejście: Plik CSV: dane.csv
+Wyjście: Przetworzone dane zapisane w pliku przetworzone.csv
