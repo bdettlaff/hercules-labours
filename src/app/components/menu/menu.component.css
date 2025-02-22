@@ -1,11 +1,7 @@
-/* Naprawa wyrównania strzałki */
 .navbar-nav .nav-item .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.5rem;
   vertical-align: middle;
-  content: "▼"; /* Dodaj strzałkę w dół */
-  font-size: 0.8rem;
-  color: #fff;
 }
 
 /* Wyświetlanie rozwijanego menu przy najechaniu (opcjonalnie) */

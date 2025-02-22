@@ -2,22 +2,22 @@
     border-radius: 15px; /* Zaokrąglone rogi */
     overflow: hidden; /* Obrazki wpasowane w ramki */
   }
-  
+
   .card img {
     object-fit: cover;
     height: 450px;
     width: 100%;
   }
-  
+
   .card h5 {
     color: #343a40; /* Ciemny kolor nagłówków */
   }
-  
+
   .card .btn {
     background-color: #007bff; /* Dopasowany kolor przycisku */
     border: none;
   }
-  
+
   .card .btn:hover {
     background-color: #0056b3; /* Kolor na hover */
   }
@@ -32,7 +32,7 @@
     font-size: 3rem;
     color: #2c3e50;
   }
-  
+
   /* Styl dla napisu "przez ciernie do gwiazd" (zwykła czcionka) */
   .regular {
     font-family: 'Arial', sans-serif; /* Zwykła czcionka */
@@ -41,4 +41,12 @@
     text-align: right; /* Wyrównanie tekstu do prawej */
     margin-top: 10px; /* Dodatkowa przestrzeń między tekstem */
     padding-left: 10px; /* Myślnik będzie widoczny z lewej */
+  }
+
+  .img-hover-zoom {
+    transition: transform 0.3s ease-in-out; /* Płynna animacja */
+  }
+
+  .img-hover-zoom:hover {
+    transform: scale(1.1); /* Powiększenie o 10% */
   }
